@@ -5,9 +5,11 @@ import smtplib, ssl
 def send_email(message):
     port = 465
     smtp_server = 'smtp.gmail.com'
-    sender_email = 'pythonscript@gmail.com'
-    #Here you type your email and password
+    #You have to input a valid sender_email
+    sender_email = ''
+    #Your email goes below
     receiver_email = ''
+    #You have to create an app password via gmail on this occasion
     password = ''
 
     context = ssl.create_default_context()
